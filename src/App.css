@@ -1,0 +1,96 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Smooth gradient background */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Padding around the app */
+}
+
+.app-header {
+  margin-bottom: 20px; /* Space below the header */
+  color: #004d40; /* Darker color for the header text for contrast */
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+  text-align: center; /* Center text in the form container */
+}
+
+.file-input {
+  margin-bottom: 15px; /* Space below the file input */
+}
+
+.submit-button {
+  background-color: #007bff; /* Blue background for the button */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above the button */
+}
+
+.submit-button:disabled {
+  background-color: #007bff80; /* Semi-transparent when disabled */
+}
+
+.processing-message {
+  margin-top: 10px; /* Space above the processing message */
+}
+
+.error-container {
+  color: red; /* Red color for error messages */
+  margin-top: 10px; /* Space above error messages */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  margin-top: 20px; /* Space above the cards */
+}
+
+.card {
+  background-color: #ffffff; /* Light background color for cards */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the card */
+  width: calc(45% - 20px); /* Adjusted width for two cards in a row */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow for cards */
+}
+
+.word-item {
+  margin-bottom: 10px; /* Space between words */
+}
+
+.keyword {
+  color: #007bff; /* Color for highlighted keywords */
+  font-weight: bold; /* Bold text for keywords */
+  font-size: 1.2em; /* Larger size for keywords */
+}
+
+.upload-container {
+  text-align: center; /* Center the upload button */
+  margin-top: 30px; /* Space above the upload section */
+}
+
+.word-item {
+  margin-bottom: 10px; /* Space between words */
+  padding-bottom: 10px; /* Space below each word */
+  border-bottom: 1px solid #ddd; /* Light gray line separation */
+}
+
+.word-item:last-child {
+  border-bottom: none; /* Remove the border for the last word item */
+}
