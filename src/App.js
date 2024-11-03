@@ -77,7 +77,7 @@ function App() {
             {isProcessing ? 'Processing...' : 'Submit'}
           </button>
         </form>
-        {isProcessing && <p className="processing-message">Processing, please wait...</p>}
+        {isProcessing && <p className="processing-message">Processing, Please Wait...</p>}
         {error && (
           <div className="error-container">
             <h2>Error:</h2>
