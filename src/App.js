@@ -53,8 +53,8 @@ function App() {
           <div key={index} className="word-item">
             <h3 className="keyword">{word.word}</h3> {/* Highlighted keyword */}
             <p><strong>Meaning:</strong> {word.meaning}</p>
-            <p><strong>Formal Writing Sentence:</strong> {word.formal_writing_sentence}</p>
-            <p><strong>Semi-Formal Speaking Sentence:</strong> {word.semi_formal_speaking_sentence}</p>
+            <p><strong>Formal Writing Sentences:</strong> {word.formal_writing_sentence}</p>
+            <p><strong>Semi-Formal Speaking Sentences:</strong> {word.semi_formal_speaking_sentence}</p>
           </div>
         ))}
       </div>
